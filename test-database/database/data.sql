@@ -3,3 +3,52 @@
 
 -- DANGER: this is NOT how to do it in the real world.
 -- You should NEVER EVER check user data into Git!
+
+-- INSERT INTO json_table
+-- SELECT id, str_col, int_col, bool_col, json_col, float_col
+-- FROM json_populate_record (NULL::json_table,
+--     '{
+--       "id": "0",
+--       "str_col": "orkb type foo examples tutorials orkb",
+--       "int_col": 5743,
+--       "bool_col": true,
+--       "json_col": {
+--         "ObjectRocket": "examples"
+--       },
+--       "float_col": 94.55681687716474
+--     }'
+-- );
+
+
+-- [
+--   {
+--     "id": "0",
+--     "str_col": "orkb type foo examples tutorials orkb",
+--     "int_col": 5743,
+--     "bool_col": true,
+--     "json_col": {
+--       "ObjectRocket": "examples"
+--     },
+--     "float_col": 94.55681687716474
+--   },
+--   {
+--     "id": "1",
+--     "str_col": "Postgres bar data",
+--     "int_col": 3151,
+--     "bool_col": false,
+--     "json_col": {
+--       "data": "tutorials"
+--     },
+--     "float_col": 11.51099159756918
+--   },
+--   {
+--     "id": "2",
+--     "str_col": "Postgres tutorials data data",
+--     "int_col": 4237,
+--     "bool_col": true,
+--     "json_col": {
+--         "type": "type"
+--     },
+--     "float_col": 48.94065780742467
+--   }
+-- ]

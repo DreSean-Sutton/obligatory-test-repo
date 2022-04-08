@@ -204,3 +204,5 @@ const inkling = {
       ]
   }
 };
+
+module.exports = inkling;
