@@ -5,7 +5,7 @@ INSERT INTO public.characters ("name", "rosterId", "displayName")
 
 
 INSERT INTO public.moves AS "inkling"
-  ("name", "damage", "activeFrames", "totalFrames", "hitboxType")
+  ("name", "damage", "activeFrames", "totalFrames", "type")
   VALUES
     ('jab 1', '2.0%', '3-4', '19', 'single'),
     ('jab 2', '2.0%', '2-3', '21', 'single'),
@@ -30,7 +30,7 @@ INSERT INTO public.moves AS "inkling"
     ('down special', '9.4-15.0%', '20-159', '47-65',  'charge');
 
 INSERT INTO public.moves AS "joker"
-  ("name", "damage", "activeFrames", "totalFrames", "hitboxType")
+  ("name", "damage", "activeFrames", "totalFrames", "type")
   VALUES
     ('jab 1', '2.0 (2.7)%', '4-5(4-5)', '23', 'single (arsene)'),
     ('jab 2', '1.5 (2.2)%', '3-4(3-4)', '23', 'single (arsene)'),
@@ -52,7 +52,7 @@ INSERT INTO public.moves AS "joker"
     ('neutral b', '5.0/3.0/1.0%', '12/37/65..', '36/61/92', 'close/med/far'),
     ('side b', '1.0/2.0% [rehit: 1%]', '16-42/1-19 [rehit: 45]', '52', 'contact/erupt'),
     ('side b, arsene', '1.0/2.0% [rehit: 1%]', '16-32(1-15/16-27) [rehit: 45]', '52', 'contact/erupt'),
-    ('up b (grappling hook)', '--', '20-26', '59/44', 'single'),
+    ('up b (grappling hook)', '--', '20-26', '59/44', 'recovery'),
     ('up b (grappling attack)', '11.0/5.0%', '5', '28', 'grounded/air');
     -- ('down b', '--', '3+', '52/33',  'minimal/additional endlag'),
     -- ('down b', '--', '3+', '52/33',  'minimal/additional endlag'),

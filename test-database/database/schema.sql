@@ -22,7 +22,7 @@ CREATE TABLE public.moves(
   "damage" VARCHAR(50) NOT NULL,
   "activeFrames" VARCHAR(50) NOT NULL,
   "totalFrames" VARCHAR(50) NOT NULL,
-  "hitboxType" VARCHAR(50) NOT NULL,
+  "type" VARCHAR(50) NOT NULL,
   "createdAt" TIMESTAMPTZ(6) NOT NULL DEFAULT NOW(),
   PRIMARY KEY("moveId")
 );
