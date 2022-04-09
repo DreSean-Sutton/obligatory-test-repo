@@ -7,7 +7,8 @@
     "build": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:server": "nodemon index.js",
-    "db:import": "bash scripts/db-import.bash"
+    "db:import": "bash scripts/db-import.bash",
+    "sql:test": "bash scripts/sql-test.bash"
   },
   "keywords": [],
   "author": "",
