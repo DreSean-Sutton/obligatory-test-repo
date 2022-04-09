@@ -34,10 +34,3 @@ CREATE TABLE public.characterData(
   -- "miscellaneousId" SERIAL REFERENCES public.miscellaneous,
   "moveId" SERIAL REFERENCES public.moves
 );
-
--- CREATE TABLE public.purchases
--- (
---     id   serial PRIMARY KEY,
---     purchaser varchar(50),
---     items_purchased jsonb
--- );
