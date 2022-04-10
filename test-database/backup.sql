@@ -50,7 +50,7 @@ INSERT INTO public.moves AS "banjo"
     ('jab 1', '2.2%', '4-6', '27', 'single'),
     ('jab 2', '2.2%', '4-6', '24', 'single'),
     ('jab 3', '3.8%', '5-7', '31', 'single'),
-    ('rapid jab', '0.4', '5 [rehit: 2]', '--', 'multi'),
+    ('rapid jab', '0.4%', '5 [rehit: 2]', '--', 'multi'),
     ('rapid jab finisher', '1.6%', '7-8', '41', 'single'),
     ('forward tilt', '9.0/7.0%', '7-9', '28', 'tipper/close'),
     ('up tilt', '10.0%', '11-14', '31', 'single'),
