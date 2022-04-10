@@ -1,0 +1,23 @@
+{
+  "name": "test-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "build": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server": "nodemon index.js",
+    "db:import": "bash scripts/db-import.bash",
+    "sql:test": "bash scripts/sql-test.bash"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
