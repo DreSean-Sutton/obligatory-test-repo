@@ -10,7 +10,9 @@ const inkling = {
         activeFrames: '3-4',
         damage: '2.0%',
         name: 'jab 1',
-        totalFrames: '19'
+        totalFrames: '19',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -19,7 +21,9 @@ const inkling = {
         activeFrames: '2-3',
         damage: '2.0%',
         name: 'jab 2',
-        totalFrames: '21'
+        totalFrames: '21',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -28,7 +32,9 @@ const inkling = {
         activeFrames: '4-5',
         damage: '3.5%',
         name: 'jab 3',
-        totalFrames: '29'
+        totalFrames: '29',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -37,7 +43,9 @@ const inkling = {
         activeFrames: '4 (rehit rate: 3)',
         damage: '--',
         name: 'rapid jab',
-        totalFrames: '--'
+        totalFrames: '--',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -46,7 +54,9 @@ const inkling = {
         activeFrames: '6',
         damage: '2.5%',
         name: 'rapid jab Finisher',
-        totalFrames: '48'
+        totalFrames: '48',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -55,7 +65,9 @@ const inkling = {
         activeFrames: '8-10',
         damage: '9.0%',
         name: 'forward tilt',
-        totalFrames: '34'
+        totalFrames: '34',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -64,7 +76,9 @@ const inkling = {
         activeFrames: '7-12',
         damage: '6.0%',
         name: 'up tilt',
-        totalFrames: '29'
+        totalFrames: '29',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -73,7 +87,9 @@ const inkling = {
         activeFrames: '5-8/12-15',
         damage: '3.0/6.0%',
         name: 'down tilt',
-        totalFrames: '31'
+        totalFrames: '31',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -82,7 +98,9 @@ const inkling = {
         activeFrames: '8-9/10-13',
         damage: '8.0/6.0%',
         name: 'dash attack',
-        totalFrames: '35'
+        totalFrames: '35',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -91,7 +109,9 @@ const inkling = {
         activeFrames: '16-17',
         damage: '14.0/16.0%',
         name: 'forward smash',
-        totalFrames: '51'
+        totalFrames: '51',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -100,7 +120,9 @@ const inkling = {
         activeFrames: '9-10/18-20',
         damage: '4.0/15.0/10.0%',
         name: 'up smash',
-        totalFrames: '57'
+        totalFrames: '57',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -109,7 +131,9 @@ const inkling = {
         activeFrames: '11-15/20-24',
         damage: '12.5/11.0%',
         name: 'down smash',
-        totalFrames: '49'
+        totalFrames: '49',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -118,7 +142,9 @@ const inkling = {
         activeFrames: '6-9',
         damage: '7.0%',
         name: 'neutral air',
-        totalFrames: '31'
+        totalFrames: '31',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -127,7 +153,9 @@ const inkling = {
         activeFrames: '10-11/12-21',
         damage: '12.0/10.0/7.0%',
         name: 'foward air',
-        totalFrames: '41'
+        totalFrames: '41',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -136,7 +164,9 @@ const inkling = {
         activeFrames: '7-11',
         damage: '10.0/7.5%',
         name: 'back air',
-        totalFrames: '36'
+        totalFrames: '36',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -145,7 +175,9 @@ const inkling = {
         activeFrames: '12-15/17-20',
         damage: '4.5/6.5%',
         name: 'up air',
-        totalFrames: '43'
+        totalFrames: '43',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -154,7 +186,9 @@ const inkling = {
         activeFrames: '16-17',
         damage: '12.0/10.0%',
         name: 'down air',
-        totalFrames: '61'
+        totalFrames: '61',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -164,7 +198,9 @@ const inkling = {
         damage: '0.3%',
         name: 'neutral b',
         fullName: 'splattershot',
-        totalFrames: '36'
+        totalFrames: '36',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -174,7 +210,9 @@ const inkling = {
         damage: '4.0-11.0%',
         name: 'rapid jab Finisher',
         fullName: 'splat roller',
-        totalFrames: '35'
+        totalFrames: '35',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -184,7 +222,9 @@ const inkling = {
         damage: '8.0/6.0%',
         name: 'up b',
         fullName: 'super jump',
-        totalFrames: '40'
+        totalFrames: '40',
+        type: 'attack',
+        hitBoxType: null
       },
       {
         characterId: 1,
@@ -194,7 +234,9 @@ const inkling = {
         damage: '9.4-15.0%',
         name: 'down b',
         fullName: 'splat bomb',
-        totalFrames: '47-65'
+        totalFrames: '47-65',
+        type: 'attack',
+        hitBoxType: null
       }
     ],
   throws:
@@ -206,7 +248,9 @@ const inkling = {
         activeFrames: '8-9',
         damage: '--',
         name: 'grab',
-        totalFrames: '34'
+        totalFrames: '34',
+        type: 'throw',
+        hitboxType: '?'
       },
       {
         characterId: 1,
@@ -215,7 +259,9 @@ const inkling = {
         activeFrames: '9-10',
         damage: '--',
         name: 'dash grab',
-        totalFrames: '41'
+        totalFrames: '41',
+        type: 'throw',
+        hitboxType: '?'
       },
       {
         characterId: 1,
@@ -224,7 +270,9 @@ const inkling = {
         activeFrames: '10-11',
         damage: '--',
         name: 'pivot grab',
-        totalFrames: '37'
+        totalFrames: '37',
+        type: 'throw',
+        hitboxType: '?'
       },
       {
         characterId: 1,
@@ -233,7 +281,9 @@ const inkling = {
         activeFrames: '--',
         damage: '1.3%',
         name: 'pummel',
-        totalFrames: '18'
+        totalFrames: '18',
+        type: 'throw',
+        hitboxType: '?'
       },
       {
         characterId: 1,
@@ -242,7 +292,9 @@ const inkling = {
         activeFrames: '22-23',
         damage: '5.0/3.0%',
         name: 'forward throw',
-        totalFrames: '39'
+        totalFrames: '39',
+        type: 'throw',
+        hitboxType: '?'
       },
       {
         characterId: 1,
@@ -251,7 +303,9 @@ const inkling = {
         activeFrames: '17',
         damage: '9.0%',
         name: 'back throw',
-        totalFrames: '36'
+        totalFrames: '36',
+        type: 'throw',
+        hitboxType: '?'
       },
       {
         characterId: 1,
@@ -260,7 +314,9 @@ const inkling = {
         activeFrames: '21-22',
         damage: '9.4-15.0%',
         name: 'up throw',
-        totalFrames: '36'
+        totalFrames: '36',
+        type: 'throw',
+        hitboxType: '?'
       },
       {
         characterId: 1,
@@ -269,7 +325,9 @@ const inkling = {
         activeFrames: '20',
         damage: '7.0%',
         name: 'down throw',
-        totalFrames: '34'
+        totalFrames: '34',
+        type: 'throw',
+        hitboxType: '?'
       }
     ],
   attributes:
@@ -291,5 +349,3 @@ const inkling = {
       }
     ]
 };
-
-module.exports = inkling;
