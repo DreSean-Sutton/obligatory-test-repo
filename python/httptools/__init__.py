@@ -1,1 +1,1 @@
-from client.get import get
+from .client import get, post
