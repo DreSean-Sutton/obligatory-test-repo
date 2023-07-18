@@ -1,3 +1,6 @@
+import starter_module as starter
+# import
+
 class Vehicle:
   def __init__(self, started: bool = False, speed: int = 0):
     self.started = started
@@ -50,3 +53,5 @@ print(f'car1.started: {car1.started}, car1.speed: {car1.speed}')
 motorcycle = Motorcycle(True)
 print(motorcycle.center_stand_out)
 motorcycle.start()
+
+starter.my_function()
