@@ -40,8 +40,8 @@ def sets():
   my_set1 = {1, 2, 3, 4, 5}
   my_set2 = {3, 4, 5, 6, 7}
   my_set1.add(6) # {1, 2, 3, 4, 5, 6}
-  my_set1.remove(5) # {1, 2, 3, 4, 6}
-  my_set1.discard(6) # {1, 2, 3, 4}
+  my_set1.remove(5) # {1, 2, 3, 4, 6} Throws an error if element isn't found
+  my_set1.discard(6) # {1, 2, 3, 4} Doesn't throw an error
   my_set1.pop() # {1, 2, 3, 4, 6}
   my_set1.clear() # set()
   my_set1.update(range(1, 6)) # {1, 2, 3, 4, 5}
