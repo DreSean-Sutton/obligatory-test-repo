@@ -45,8 +45,12 @@ def sets():
   my_set1.pop() # {1, 2, 3, 4, 6}
   my_set1.clear() # set()
   my_set1.update(range(1, 6)) # {1, 2, 3, 4, 5}
-  print(my_set1-my_set2) # {1, 2}
-  print(my_set2-my_set1) # {6, 7}
+  only_present_in_1 = my_set1-my_set2 # {1, 2}
+  only_present_in_2 = my_set2-my_set1 # {6, 7}
+  symetric_difference = my_set1^my_set2 # {1, 2, 6, 7}
+  intersection = my_set1&my_set2 # {3, 4, 5}
+  subset_of_set2 = my_set1 < my_set2 # false. Must contain all elements of my_set2.
+  union = my_set1 | my_set2 # {1, 2, 3, 4, 5, 6, 7}
 
 print(check_instance(2, int)) # True
 my_info = tuples()
